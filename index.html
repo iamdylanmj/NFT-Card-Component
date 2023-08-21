@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/style.css">
+</head>
+<body>
+  <!--  outer container -->
+  <div class="outer">
+    <!-- main container -->
+    <div class="main-cont">
+
+      <!-- main image goes here -->
+      <div class="main-cont__img">
+        <!-- overlay goes here -->
+        <div class="main-cont__img-overlay overlay">
+            <img src="./images/icon-view.svg" alt="view icon" class="main-cont__img-overlay-icon">
+        </div>
+      </div>
+
+      <!-- description goes here -->
+      <div class="main-cont__desc">
+        <h3>Equilibrium #3429</h3>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <!-- updates section goes here -->
+        <div class="main-cont__desc-updates">
+          <!-- value update -->
+          <span class="main-cont__desc-updates-rate">
+            <img src="./images/icon-ethereum.svg" alt="etherium icon">
+            0.041 ETH
+          </span>
+          <!-- time left -->
+          <span class="main-cont__desc-updates-time">
+            <img src="./images/icon-clock.svg " alt="clock icon">
+            3 days left
+          </span>
+
+        </div>
+
+        <!-- creator section -->
+        <div class="main-cont__desc-creator">
+          <div class="main-cont_desc-creator-avatar" id="avatar"></div>
+          <p> Creation of <span id="creator-name">Jules Wyvern</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!-- developer details sections  -->
+ <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dilan M Jayawardena</a>.
+  </div>
+</body>
+</html>

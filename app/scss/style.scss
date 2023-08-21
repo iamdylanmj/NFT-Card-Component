@@ -1,0 +1,44 @@
+@forward "global";
+@forward "layouts";
+
+.main-cont__img {
+  &-overlay {
+    transition: opacity 0.3s;
+  }
+}
+.main-cont__img-overlay:hover {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.main-cont__desc h3 {
+  transition: color 0.3s;
+}
+.main-cont__desc h3:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+#creator-name {
+  transition: color 0.3s;
+}
+#creator-name:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  font-weight: 200;
+  text-align: center;
+  color: var(--Soft-blue);
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  a {
+    color: var(--White);
+    text-decoration: underline;
+  }
+
+}

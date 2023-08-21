@@ -1,0 +1,187 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  display: grid;
+  justify-content: center;
+  background-color: var(--Very-dark-blue-main--BG);
+  position: relative;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-main--BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card--BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.outer {
+  background-color: var(--Very-dark-blue-card--BG);
+  width: 350px;
+  height: 580px;
+  border-radius: 15px;
+  margin: auto 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer .main-cont {
+  height: 93%;
+  width: 90%;
+}
+.outer .main-cont__img, .outer .main-cont__desc {
+  width: 100%;
+}
+.outer .main-cont__img {
+  background-image: url("../../../images/image-equilibrium.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 55%;
+  overflow: hidden;
+}
+.outer .main-cont__img-overlay {
+  background-color: var(--Cyan);
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer .main-cont__desc {
+  height: 45%;
+}
+.outer .main-cont__desc h3 {
+  padding-top: 1.1rem;
+  color: var(--White);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.outer .main-cont__desc p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+  color: var(--Soft-blue);
+}
+.outer .main-cont__desc-updates {
+  margin-top: 1.2rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid var(--Very-dark-blue-line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.outer .main-cont__desc-updates-rate, .outer .main-cont__desc-updates-time {
+  display: flex;
+  font-size: 0.9rem;
+}
+.outer .main-cont__desc-updates-rate img, .outer .main-cont__desc-updates-time img {
+  margin-right: 10px;
+  height: 20px;
+}
+.outer .main-cont__desc-updates-rate {
+  color: var(--Cyan);
+}
+.outer .main-cont__desc-updates-time {
+  color: var(--Soft-blue);
+}
+.outer .main-cont__desc-creator {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+}
+.outer .main-cont__desc-creator #avatar {
+  background-image: url("../../../images/image-avatar.png");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.outer .main-cont__desc-creator p {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--Soft-blue);
+}
+.outer .main-cont__desc-creator p span {
+  color: var(--White);
+}
+
+.main-cont__img-overlay {
+  transition: opacity 0.3s;
+}
+
+.main-cont__img-overlay:hover {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.main-cont__desc h3 {
+  transition: color 0.3s;
+}
+
+.main-cont__desc h3:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+#creator-name {
+  transition: color 0.3s;
+}
+
+#creator-name:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  font-weight: 200;
+  text-align: center;
+  color: var(--Soft-blue);
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+.attribution a {
+  color: var(--White);
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
