@@ -14,7 +14,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -64,4 +63,5 @@ By doing this project I have had the opportunity to implement the knowladge prac
 - [Coder Coder youtube channel ](https://www.youtube.com/watch?v=jfMHA8SqUL4&t=2191s) - This helped me for learning some Sass and also how to organize file structure within the project. I really liked this pattern and will use it going forward.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [iamdylanmj](https://www.frontendmentor.io/profile/iamdylanmj
+)
