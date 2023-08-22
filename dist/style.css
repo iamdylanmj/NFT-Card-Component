@@ -62,7 +62,7 @@ p {
   width: 100%;
 }
 .outer .main-cont__img {
-  background-image: url("../../../images/image-equilibrium.jpg");
+  background-image: url("../images/image-equilibrium.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 15px;
@@ -122,7 +122,7 @@ p {
   display: flex;
 }
 .outer .main-cont__desc-creator #avatar {
-  background-image: url("../../../images/image-avatar.png");
+  background-image: url("../images/image-avatar.png");
   background-position: center;
   background-size: cover;
   border: 1px solid var(--White);
